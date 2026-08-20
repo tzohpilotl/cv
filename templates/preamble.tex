@@ -1,4 +1,18 @@
 \definecolor{ink}{HTML}{1c180e}
+\definecolor{rust}{HTML}{A8553A}
+\usepackage[normalem]{ulem}
+\AtBeginDocument{%
+  \let\PandocUrl\url
+  \renewcommand{\url}[1]{\uline{\PandocUrl{#1}}}
+}
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{center}
+    {\LARGE \@title \par}
+  \end{center}
+  \vskip 1em
+}
+\makeatother
 \usepackage{enumitem}
 \setlist{itemsep=1pt, parsep=0pt, topsep=3pt}
 \usepackage{titlesec}

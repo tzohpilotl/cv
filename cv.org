@@ -1,8 +1,7 @@
 #+TITLE: Mario Gil. Software Engineer
 #+AUTHOR: Mario Alejandro Gil Lázaro
 
-Mexico City, Mexico
-mariogillazaro@gmail.com
+Mexico City, Mexico · mariogillazaro@gmail.com \\
 https://linkedin.com/in/mario-gil-lazaro
 
 Full-stack software engineer with 8+ years shipping production React/TypeScript, PHP, and Node.js
@@ -73,14 +72,14 @@ https://tempo.tzohpilotl.com
 
 - Designed and implemented the first unit testing suite for our application
 
-** Wizeline
-*** Software Engineer — Guadalajara, Mexico — 2019 - 2020
+** Software Engineer @ Wizeline
+*** Guadalajara, Mexico — 2019 - 2020
 
 - Collaborated with a team spanning 3 time zones, maintaining reliable delivery cadence
 
 - Taught higher-order functions and browser Javascript chapters in a Javascript training course
 
-*** Software Engineer — Ho Chi Minh City, Vietnam — 2018 - 2019
+*** Ho Chi Minh City, Vietnam — 2018 - 2019
 
 - Implemented a payment and loan React application for a Thai fintech
 
@@ -91,7 +90,7 @@ https://tempo.tzohpilotl.com
 - Served as a main point of contact for the frontend team within a multicultural, 6+ nationalities
   team
 
-*** Software Engineer Trainee — Guadalajara, Mexico — 2017 - 2018 :pdfskip:
+*** Guadalajara, Mexico — 2017 - 2018 :pdfskip:
 
 - Maintained and developed the company's website, handling ongoing feature work and bug fixes
 

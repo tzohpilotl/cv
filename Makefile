@@ -9,16 +9,17 @@ html: $(DIST)/index.html
 
 pdf: $(DIST)/cv.pdf
 
-$(DIST)/index.html: $(SRC) templates/style.css templates/pdf-trim.lua
+$(DIST)/index.html: $(SRC) templates/style.css templates/pdf-trim.lua templates/hide-author.lua
 	mkdir -p $(DIST)
 	pandoc $(SRC) \
 		--standalone \
 		--css=style.css \
+		--lua-filter=templates/hide-author.lua \
 		--lua-filter=templates/pdf-trim.lua \
 		-o $(DIST)/index.html
 	cp templates/style.css $(DIST)/style.css
 
-$(DIST)/cv.pdf: $(SRC) templates/pdf-trim.lua
+$(DIST)/cv.pdf: $(SRC) templates/pdf-trim.lua templates/hide-author.lua
 	mkdir -p $(DIST)
 	pandoc $(SRC) \
 		--pdf-engine=xelatex \
@@ -26,9 +27,10 @@ $(DIST)/cv.pdf: $(SRC) templates/pdf-trim.lua
 		-V fontsize=10pt \
 		-V mainfont="JetBrainsMono Nerd Font Mono" \
 		-V colorlinks=true \
-		-V linkcolor=ink \
-		-V urlcolor=ink \
+		-V linkcolor=rust \
+		-V urlcolor=rust \
 		-H templates/preamble.tex \
+		--lua-filter=templates/hide-author.lua \
 		--lua-filter=templates/pdf-trim.lua \
 		-M trim=true \
 		-o $(DIST)/cv.pdf
