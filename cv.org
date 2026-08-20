@@ -1,0 +1,108 @@
+#+TITLE: Mario Gil. Software Engineer
+#+AUTHOR: Mario Alejandro Gil Lázaro
+
+Mexico City, Mexico
+mariogillazaro@gmail.com
+https://linkedin.com/in/xr4m
+
+* Programming Languages
+
+Typescript (proficient), Javascript (proficient), PHP (intermediate), Python (intermediate)
+
+* Software
+
+React, Vue, Mithril, Jest, React Testing Library, Node.js, Express, Koa, Flutter, MySQL, PostgresQL,
+MongoDB, Docker, Grafana, Sentry, Fullstory, Github Actions, Jenkins
+
+* Practices
+
+TDD, CI/CD, Agile, Technical Mentoring, System Design, AI-assisted development, Design Systems,
+Clean Code, Open Communication, Version Control
+
+* Projects
+
+** Tempo App
+
+https://tempo.tzohpilotl.com
+
+A time tracking app to keep a record of time spent in tasks and projects.
+
+* Experience
+
+** Software Engineer @ Etsy
+*** Mexico City, Mexico — 2022 - 2025
+
+- Raised unit testing coverage by roughly 50% in my team's new frontend code
+
+- Owned the team's mobile branch end-to-end — aligning design, mobile engineering, and QA — shipping
+  Flutter features on schedule and within quality thresholds
+
+- Built and maintained PHP API endpoints with roughly 0% performance degradation and bug count
+  increase
+
+- Acted as main frontend pull request reviewer
+
+- Reduced team-wide production bug count by and estimated 10% by establishing testing strategies and
+  thorough code reviews
+
+- Imparted a testing strategies tech talk to the team
+
+- Executed a large-scale data migration using Spark and Airflow
+
+** Software Engineer @ Scalable Press
+*** Guadalajara, Mexico — 2020 - 2022
+
+- Reduced total blocking time on a critical customer-facing page by 92% through targeted performance
+  profiling
+
+- Reduced time-to-interactive on the same page by 72% via code splitting and architecture
+  improvements
+
+- Established good practices for the frontend team as a result of the old codebase modernization
+
+- Designed and implemented the first unit testing suite for our application
+
+** Software Engineer @ Wizeline
+*** Guadalajara, Mexico — 2019 - 2020
+
+- Delivered close to 100% of features on time for a US fintech React application
+
+- Collaborated with a team spanning 3 time zones, maintaining reliable delivery cadence
+
+- Taught higher-order functions and browser Javascript chapters in a Javascript training course  
+
+
+** Software Engineer @ Wizeline
+*** Ho Chi Minh City, Vietnam — 2018 - 2019
+
+- Implemented a payment and loan React application for a Thai fintech
+
+- Reduced the application's runtime errors in the Redux stores and =connect= adapters to 0%
+
+- Presented the Redux chapter in a React training course
+
+- Mentored the team on React hooks by presenting a technical talk
+
+- Served as a main point of contact for the frontend team within a multicultural, 6+ nationalities
+  team
+
+** Software Engineer Trainee @ Wizeline
+*** Guadalajara, Mexico — 2017 - 2018
+
+- Maintained and developed the company's website with almost 0% downtime
+
+- Graduated successfully from the trainee program
+
+** Software Engineer @ Freelance
+*** Salamanca, Mexico — 2017
+
+- Delivered first professional project on time
+
+- Learned Mithril (frontend), Mongoose (query builder) and Node fundamentals on the fly
+
+- Onboarded teammates on deployment strategy and stack
+
+* Education
+
+B. Eng. Computer Systems — 2017
+Universidad de Guanajuato
