@@ -35,6 +35,14 @@ h1 {
   letter-spacing: 0.02em;
 }
 
+#title-block-header + p {
+  margin-top: 0.4rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-faint);
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+}
+
 h2 {
   margin-top: 2rem;
   padding-bottom: 0.2rem;
