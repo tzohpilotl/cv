@@ -7,9 +7,7 @@ WORKTREE=".gh-pages-worktree"
 BRANCH="gh-pages"
 
 if ! git show-ref --verify --quiet "refs/heads/$BRANCH"; then
-  git branch "$BRANCH" --orphan
-  git worktree add "$WORKTREE" "$BRANCH"
-  git -C "$WORKTREE" rm -rf . >/dev/null 2>&1 || true
+  git worktree add --orphan -b "$BRANCH" "$WORKTREE"
 else
   git worktree add "$WORKTREE" "$BRANCH"
 fi

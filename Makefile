@@ -9,15 +9,16 @@ html: $(DIST)/index.html
 
 pdf: $(DIST)/cv.pdf
 
-$(DIST)/index.html: $(SRC) templates/style.css
+$(DIST)/index.html: $(SRC) templates/style.css templates/pdf-trim.lua
 	mkdir -p $(DIST)
 	pandoc $(SRC) \
 		--standalone \
 		--css=style.css \
+		--lua-filter=templates/pdf-trim.lua \
 		-o $(DIST)/index.html
 	cp templates/style.css $(DIST)/style.css
 
-$(DIST)/cv.pdf: $(SRC)
+$(DIST)/cv.pdf: $(SRC) templates/pdf-trim.lua
 	mkdir -p $(DIST)
 	pandoc $(SRC) \
 		--pdf-engine=xelatex \
@@ -28,6 +29,8 @@ $(DIST)/cv.pdf: $(SRC)
 		-V linkcolor=ink \
 		-V urlcolor=ink \
 		-H templates/preamble.tex \
+		--lua-filter=templates/pdf-trim.lua \
+		-M trim=true \
 		-o $(DIST)/cv.pdf
 
 clean:

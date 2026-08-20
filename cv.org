@@ -3,7 +3,11 @@
 
 Mexico City, Mexico
 mariogillazaro@gmail.com
-https://linkedin.com/in/xr4m
+https://linkedin.com/in/mario-gil-lazaro
+
+Full-stack software engineer with 8+ years shipping production React/TypeScript, PHP, and Node.js
+applications, plus mobile (Flutter) delivery. Strong focus on testing culture, code quality, and
+technical mentoring, with experience across fintech, e-commerce, and time-tracking domains.
 
 * Programming Languages
 
@@ -25,7 +29,15 @@ Clean Code, Open Communication, Version Control
 
 https://tempo.tzohpilotl.com
 
-A time tracking app to keep a record of time spent in tasks and projects.
+- Built a self-hosted time-tracking app to replace paid subscription tools, used daily to track
+  personal project and interview-prep time
+
+- Full-stack build: NestJS/TypeORM/SQLite backend with Google OAuth, React/Vite frontend, Playwright
+  e2e tests, Sentry error monitoring, containerized with Docker and deployed via nginx to a custom
+  domain
+
+- First project built end-to-end with AI-assisted development (Claude Code), used to evaluate the
+  workflow for production-quality code
 
 * Experience
 
@@ -37,13 +49,10 @@ A time tracking app to keep a record of time spent in tasks and projects.
 - Owned the team's mobile branch end-to-end — aligning design, mobile engineering, and QA — shipping
   Flutter features on schedule and within quality thresholds
 
-- Built and maintained PHP API endpoints with roughly 0% performance degradation and bug count
-  increase
+- Built and maintained PHP API endpoints as part of daily backend development work
 
-- Acted as main frontend pull request reviewer
-
-- Reduced team-wide production bug count by and estimated 10% by establishing testing strategies and
-  thorough code reviews
+- Reduced team-wide production bug count by an estimated 10% by establishing testing strategies and
+  reviewing roughly 80% of the frontend team's pull requests
 
 - Imparted a testing strategies tech talk to the team
 
@@ -58,49 +67,45 @@ A time tracking app to keep a record of time spent in tasks and projects.
 - Reduced time-to-interactive on the same page by 72% via code splitting and architecture
   improvements
 
-- Established good practices for the frontend team as a result of the old codebase modernization
+- Modernized the legacy frontend codebase, introducing linting rules, a stateless functional
+  component convention with hooks, and domain-organized Redux stores for simpler component-to-store
+  connections
 
 - Designed and implemented the first unit testing suite for our application
 
-** Software Engineer @ Wizeline
-*** Guadalajara, Mexico — 2019 - 2020
-
-- Delivered close to 100% of features on time for a US fintech React application
+** Wizeline
+*** Software Engineer — Guadalajara, Mexico — 2019 - 2020
 
 - Collaborated with a team spanning 3 time zones, maintaining reliable delivery cadence
 
-- Taught higher-order functions and browser Javascript chapters in a Javascript training course  
+- Taught higher-order functions and browser Javascript chapters in a Javascript training course
 
-
-** Software Engineer @ Wizeline
-*** Ho Chi Minh City, Vietnam — 2018 - 2019
+*** Software Engineer — Ho Chi Minh City, Vietnam — 2018 - 2019
 
 - Implemented a payment and loan React application for a Thai fintech
 
 - Reduced the application's runtime errors in the Redux stores and =connect= adapters to 0%
 
-- Presented the Redux chapter in a React training course
-
-- Mentored the team on React hooks by presenting a technical talk
+- Taught Redux and React hooks in the team's React training course and a technical talk
 
 - Served as a main point of contact for the frontend team within a multicultural, 6+ nationalities
   team
 
-** Software Engineer Trainee @ Wizeline
-*** Guadalajara, Mexico — 2017 - 2018
+*** Software Engineer Trainee — Guadalajara, Mexico — 2017 - 2018 :pdfskip:
 
-- Maintained and developed the company's website with almost 0% downtime
+- Maintained and developed the company's website, handling ongoing feature work and bug fixes
 
-- Graduated successfully from the trainee program
+- Graduated from the trainee program and was selected for the company's exchange program,
+  transferring to the Ho Chi Minh City team
 
-** Software Engineer @ Freelance
+** Software Engineer @ Freelance :pdfskip:
 *** Salamanca, Mexico — 2017
 
-- Delivered first professional project on time
+- Delivered a search/filter frontend for a municipal government's database within a 1-month
+  deadline, learning web development from scratch (Mithril, Mongoose, Node.js, Bulma CSS) to do so
 
-- Learned Mithril (frontend), Mongoose (query builder) and Node fundamentals on the fly
-
-- Onboarded teammates on deployment strategy and stack
+- Authored deployment documentation and walked teammates through manual installation, since only
+  authorized staff could access the government's on-site systems
 
 * Education
 
